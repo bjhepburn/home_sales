@@ -1,1 +1,1 @@
-# home_sales
+# home_sales is a simple spark program designed to test SQL queries as well as compare aggregation speeds between temporary views created from the dataframe, a cached dataframe and a parquet file. The cached response time was clearly faster that the other two, with the parquet being marginally faster than the original dataframe.
